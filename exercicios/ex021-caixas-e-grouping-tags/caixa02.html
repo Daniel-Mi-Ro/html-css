@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            margin:0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+        }
+
+        nav {
+            background-color: darkgray;
+            box-shadow: 2px 4px 3px rgba(0, 0, 0, 0.448);
+            border-radius:10px 20px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin:10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+        }
+
+        article > article {
+            background-color: rgb(164, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 10px;
+            margin:0px ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+
+        </section>
+        <section>
+            <article>
+                <h2>Sobre o autor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore illum tenetur expedita consectetur deleniti modi ut vero, voluptate debitis nobis a neque repudiandae praesentium quia reiciendis similique placeat vel. Voluptates.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Daniel Miranda Rodrigues</p>
+    </footer>
+</body>
+</html>

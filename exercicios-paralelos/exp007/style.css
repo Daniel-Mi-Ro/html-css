@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@font-face {
+    font-family: 'bodoni dirt';
+    src: url('fontes/BodoniFragileDirt.otf') format('opentype'); 
+}
+:root {
+    --cor1:red;
+    --cor2:white;
+}
+
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+header {
+    color: var(--cor2);
+    background-color: var(--cor1);
+    padding-top:35px;
+    padding-bottom:35px;
+    text-align:center;
+}
+
+header > h1 {
+    margin-bottom:15px;
+    font-size:3.5em;
+    font-family: 'bodoni dirt', sans-serif;
+}
+
+
+main article h1 {
+    font-size: 26px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding:5px 10px;
+    font-size: 20px;
+    color:white;
+    
+}
+
+nav ul li a:hover {
+    background-color: #FF554D;
+    color:var(--cor2);
+    border-radius:5px;
+    transition:0.5s;
+}
+
+main {
+    margin: auto;
+    padding:10px;
+    min-width:300px;
+    max-width:1000px
+    
+}
+
+main article h1 {
+    margin-top:15px;
+    margin-bottom:20px;
+    padding-left:10px;
+    border-bottom:3px solid var(--cor1); 
+}
+
+main article p {
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 25px;
+    margin-top:13px;
+    margin-bottom: 13px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+strong {
+    
+    color: var(--cor1); 
+}
+
+main article img {
+    display: block;
+    margin: auto;
+    border-radius:15px;
+}
+
+footer {
+    color:var(--cor2);
+    background-color: var(--cor1);
+    padding: 15px;
+    text-align: center;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    font-family: 'bodoni dirt', sans-serif;
+}
+
