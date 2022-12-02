@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="book.ico" type="image/x-icon">
+    <title>Exercício Paralelo 010</title>
+    <style>
+
+        * {
+            padding: 0px;
+            margin: 0px;
+
+        }
+        header {
+            height: 100vh;
+            background-image: url('imagens/nature.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            
+        }
+
+        #conteudo {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -60%);
+            background-color: rgba(0, 0, 0, 0.338);
+            padding:45px;
+        }
+
+        header > h1 {
+            margin-bottom: 15px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        main {
+            background-color: white;
+            margin: auto;
+            max-width:1200px;
+            min-width:300px;
+            padding:10px;
+        }
+
+
+        #principal > h1 {
+            margin-top:50px;
+            text-align: center;
+            font-size: 2.5em;
+        }
+
+        #principal > p  {
+            margin:15px auto;
+            width:400px;
+            text-align: center;
+            line-height:30px;
+            font-size: 1.3em;
+        }
+
+        picture > img {
+            display: block;
+            margin: auto;
+        }
+
+        #imagem01 {
+            padding-top:10vh;
+            padding-bottom: 10vh;
+            padding-left: 30px;
+            margin-bottom: 30px;
+            background-image:url('imagens/imagem02.jpg');
+            background-position: center center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        #imagem01 > p  {
+            text-align: justify;
+            background-color: rgba(0, 0, 0, 0.174);
+            line-height: 20px;
+            max-width:500px;    
+            padding:10px;
+        }
+
+        footer {
+            margin-top:10px;
+            background-color:;
+            color: white;
+            font-size:20px;
+            padding:10px;
+            text-align: center;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="conteudo">
+            <h1>Olá, Mundo!</h1>
+            <p>Modelo de Site para a Web</p>
+        </div>
+    </header>
+    <main>
+        <section id="principal"> 
+            <h1>Este é o título do Conteúdo Principal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit dorime ameno ameno dorime. Lorem paraquequara araraquara.</p> 
+            <picture>
+                <source media="(max-width:700px)" srcset="imagens/floresta-p.jpg" type="image/jpg">
+                <source media="(max-width:1100px)" srcset="imagens/floresta-m.jpg" type="image/jpg">
+                <img src="imagens/floresta.jpg" alt="Imagem de uma Medusa">
+            </picture>
+            <p>Veja abaixo uma Imagem interessante</p>
+        </section>
+        <section id="imagem01">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quia temporibus. Iure modi, reiciendis ea voluptates aliquam quod tempora iste eligendi obcaecati sequi natus omnis quisquam officia exercitationem culpa.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Daniel Miranda Rodrigues</p>
+    </footer>
+</body>
+</html>
